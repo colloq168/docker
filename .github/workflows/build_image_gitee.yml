@@ -4,7 +4,7 @@ on:
   
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: lxk0301/jd_scripts-latest
     name: 构建Docker镜像
     steps:
       - name: Checkout master
